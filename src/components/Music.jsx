@@ -5,20 +5,21 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import { heavenly,sparks,brandy,bruno,greenday,kanye,sunsetz,souljaboy } from "../assets";
 
+
 function Music() {
   const navigate = useNavigate();
   // Customize and add your own songs
   const songs = [
     {
-      title: "Heavenly",
-      artist: "Cigarettes After Sex",
+      title: "Like The Movies",
+      artist: "Laufey",
       albumCover: heavenly, 
       left: "5%",
       top: "5%",
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "Conversations with the Moon",
+      artist: "Grant Perez",
       albumCover: brandy, 
       left: "40%",
       top: "15%",
@@ -31,36 +32,36 @@ function Music() {
       top: '40%',
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
+      title: "Spin You Round",
+      artist: "rocco",
       albumCover: greenday, 
       left: '30%',
       top: '75%',
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
+      title: "Love Like You",
+      artist: "Steven Universe SoundTrack",
       albumCover: kanye, 
       left: '5%',
       top: '65%',
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
+      title: "Double Take",
+      artist: "Dhruv",
       albumCover: sparks, 
       left: '25%',
       top: '90%',
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
+      title: "Valentine",
+      artist: "Laufey",
       albumCover: souljaboy, 
       left: '35%',
       top: '50%',
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
+      title: "Summer is for Falling in Love",
+      artist: "Sarah Jang",
       albumCover: sunsetz, 
       left: "10%",
       top: "25%",
@@ -72,7 +73,7 @@ function Music() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">
     <div className="w-[90%] max-w-[400px]">
       <h1 className="text-2xl sm:text-2xl font-bold -mb-4 mt-4 drop-shadow-lg text-white text-center">
-        Songs that remind me of you
+        songs that remind me of you
       </h1>
 
       <div ref={containerRef}  className=" relative w-full h-[40rem] rounded-lg overflow-hidden mt-8 mb-12">

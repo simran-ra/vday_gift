@@ -11,11 +11,11 @@ function Question() {
   const inputRef = useRef(null);
 
   // Customize your own Trending Searches
-  const trends = ['Why is my bf so cute?', 'Why does Rheina love him more?', `Rheina's birthdate (coz her bf forgets)`,]
+  const trends = ['Why is my pretty boy so autistic?', 'Why am i emotioning?', `How to run over coach sim with a Ford F150`,]
 
   const handleSearch = (e) => {
     e.preventDefault()
-    if (searchQuery.toLowerCase() === 'how long have we been together?' || searchQuery.toLowerCase() === 'how long have we been together') {
+    if (searchQuery.toLowerCase() === 'how long have we been yapping?' || searchQuery.toLowerCase() === 'how long have we been yapping') {
           navigate("/timer");
 
     } else{
@@ -85,7 +85,7 @@ function Question() {
             </div>
           </form>
           <div className='mt-10  px-5 text-white/50'>
-            <p>Pro tip: try searching "How long have we been together?" ;)</p>
+            <p>Pro tip: try searching "How long have we been yapping?" ;)</p>
           </div>
         </div>
       )}

@@ -32,8 +32,8 @@ function Closing() {
         {/* Greeting text */}
         <div className='w-[90%] max-w-[400px]'>
           <p className="z-10 text-white text-center text-xl font-semibold px-4 drop-shadow-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, delectus? Ut delectus voluptatibus consequatur ex.
-          </p>
+          Happy Valentines Day my love!! as u can see graphic design is clearly my passion (i should never be allowed to touch front end ever) but I love you so so much and I hope that i get to spend every valentines day of my life making a stupid website for you
+           </p>
 
         {/* Button */}
           <div className="flex justify-center w-full mt-12 z-10">
